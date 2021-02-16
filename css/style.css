@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -84,13 +88,28 @@ header {
     color: white;
     border: 1px solid hsl(81deg 97% 37%);
     border-radius: 5px;
-    padding: 0px 20px;
+    padding: 13px 20px;
     text-decoration: none;
     display: inline-block;
+    font-size: 12px;
 
 }
 
 .menu .button {
     padding: 7px 10px;
 }
+
+.titolo_pagina {
+    line-height: 43px;
+    margin-top: 20%;
+    color: white;
+    width: 37%;
+    font-size: 18px;
+}
+
+.titolo_pagina .button {
+    margin-top: 15px;
+    line-height: normal;
+}
 /*FINE HEADER*/
+
