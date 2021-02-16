@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 header {
     height: 550px;
     background-color: #0d325a;
@@ -15,3 +20,33 @@ header {
     background-position: 130% 110%;
 }
 
+.container {
+    width: 1024px;
+    margin: 0 auto;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.col {
+    float: left;
+}
+
+/*HEADER*/
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+    padding-top: 13px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-size: 10px;
+}
+
+/*FINE HEADER*/
