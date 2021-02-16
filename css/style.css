@@ -133,6 +133,7 @@ header {
     color: hsl(0deg 0% 50%);
     font-size: 12px;
     margin-top: 10px;
+    text-align: center;
 }
 
 /*sezione a tre colonne*/
@@ -142,6 +143,7 @@ header {
 .container_col {
     width: 1024px;
     margin: 0 auto;
+    padding: 20px 0;
     
 }
 
@@ -183,7 +185,47 @@ header {
 .green_text {
     color: hsl(81deg 97% 37%);
     text-align: center;
-    font-size: 19px;
+    font-size: 23px;
     margin: 13px 0 ;
 }
+
+hr {
+    margin: 0 auto;
+    width: 50px;
+    color: hsl(0deg 0% 74%);
+    
+}
+
+.divisore {
+    width: 100%;
+   color:  hsl(0deg 0% 74%);
+}
+
+.col_left_secondrow {
+    width: 50%;
+    float: left;
+}
+
+.col_right_secondrow {
+    width: 40%;
+    float: left;
+}
+
+.col_img_secondrow {
+    height: 350px;
+    width: 350px;
+}
+
+.text.secondrow {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.link {
+    color: hsl(212deg 43% 55%);
+    font-size: 13px;
+    
+}
+
+
 /*FINE MAIN*/
