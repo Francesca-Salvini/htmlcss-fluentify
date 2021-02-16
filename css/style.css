@@ -242,4 +242,11 @@ hr {
     right: 175px;
     padding: 10px;
 }
+
+select {
+    color: grey;
+    border-color: transparent;
+    background-color: transparent;
+    text-decoration: underline;
+}
 /*FINE FOOTER*/
