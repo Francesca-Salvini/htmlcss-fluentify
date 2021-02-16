@@ -229,3 +229,10 @@ hr {
 
 
 /*FINE MAIN*/
+
+/*FOOTER*/
+.col_right_footer {
+    float: right;
+    color: hsl(0deg 0% 50%);
+}
+/*FINE FOOTER*/
