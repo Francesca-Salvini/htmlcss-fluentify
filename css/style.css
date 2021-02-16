@@ -113,3 +113,25 @@ header {
 }
 /*FINE HEADER*/
 
+
+/*MAIN*/
+
+.grey_section {
+
+    background-color: hsl(0deg 0% 83%);
+    height: 100px;
+    text-align: center;
+}
+
+.container h2 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.text {
+    color: hsl(0deg 0% 50%);
+    font-size: 12px;
+    margin-top: 10px;
+}
+/*FINE MAIN*/
