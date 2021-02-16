@@ -134,4 +134,56 @@ header {
     font-size: 12px;
     margin-top: 10px;
 }
+
+/*sezione a tre colonne*/
+
+
+
+.container_col {
+    width: 1024px;
+    margin: 0 auto;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.clearfix {
+    margin: 10px 0;
+}
+
+.col_left, .col_right {
+    
+    width:  32%; 
+    float: left;
+}
+
+.col_center {
+    width:  32%; 
+    margin: 0 2%;
+    float: left;
+}
+
+.col_img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.col_img img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.green_text {
+    color: hsl(81deg 97% 37%);
+    text-align: center;
+    font-size: 19px;
+    margin: 13px 0 ;
+}
 /*FINE MAIN*/
