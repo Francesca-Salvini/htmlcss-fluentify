@@ -235,4 +235,11 @@ hr {
     float: right;
     color: hsl(0deg 0% 50%);
 }
+
+.button.help {
+    position: fixed;
+    bottom: 0;
+    right: 175px;
+    padding: 10px;
+}
 /*FINE FOOTER*/
