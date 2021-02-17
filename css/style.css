@@ -167,7 +167,7 @@ header {
 }
 
 .col_img {
-    width: 100px;
+    width: auto;
     height: 100px;
     margin: 0 auto;
     position: relative;
