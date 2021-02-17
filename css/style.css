@@ -68,6 +68,12 @@ header {
     
 }
 
+.grey_section {
+    background-color: hsl(0deg 0% 83%);
+    padding: 30px 0;
+    text-align: center;
+}
+
 /*FINE COMMON*/
 
 /*HEADER*/
@@ -100,7 +106,6 @@ header {
 .menu_destra {
     width: 41%;
     text-align: right;
-    
 }
 
 .menu_destra .menu li {
@@ -131,19 +136,10 @@ header {
 }
 /*FINE HEADER*/
 
-
 /*MAIN*/
 
-.grey_section {
-
-    background-color: hsl(0deg 0% 83%);
-    height: 100px;
-    text-align: center;
-}
-
 .container h2 {
-    margin-top: 20px;
-    font-size: 18px;
+  font-size: 18px;
 }
 
 /*sezione a tre colonne*/
@@ -152,7 +148,6 @@ header {
     width: 1024px;
     margin: 0 auto;
     padding: 20px 0;
-    
 }
 
 .clearfix {
@@ -196,7 +191,6 @@ hr {
     margin: 0 auto;
     width: 50px;
     color: hsl(0deg 0% 74%);
-    
 }
 
 .divisore {
@@ -228,7 +222,6 @@ hr {
 .link {
     color: hsl(212deg 43% 55%);
     font-size: 13px;
-    
 }
 
 /*fine sezione a due colonne*/
@@ -237,9 +230,13 @@ hr {
 
 /*FOOTER*/
 
+footer .grey_section {
+    padding: 0;
+}
+
 .text_footer {
     font-size: 20px;
-   padding-top: 10px;
+    padding-top: 10px;
 }
 .col_right_footer {
     float: right;
