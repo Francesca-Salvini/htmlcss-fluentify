@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/*COMMON*/
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -39,6 +41,34 @@ header {
 .col {
     float: left;
 }
+
+.button {
+    background-color: hsl(81deg 97% 37%);
+    color: white;
+    border: 1px solid hsl(81deg 97% 37%);
+    border-radius: 5px;
+    padding: 13px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+.text {
+    color: hsl(0deg 0% 50%);
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+/*FINE COMMON*/
 
 /*HEADER*/
 
@@ -83,18 +113,6 @@ header {
     padding: 7px 30px;
 }
 
-.button {
-    background-color: hsl(81deg 97% 37%);
-    color: white;
-    border: 1px solid hsl(81deg 97% 37%);
-    border-radius: 5px;
-    padding: 13px 20px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-
-}
-
 .menu .button {
     padding: 7px 10px;
 }
@@ -128,29 +146,12 @@ header {
     font-size: 18px;
 }
 
-
-.text {
-    color: hsl(0deg 0% 50%);
-    font-size: 12px;
-    margin-top: 10px;
-    text-align: center;
-}
-
 /*sezione a tre colonne*/
-
-
 
 .container_col {
     width: 1024px;
     margin: 0 auto;
     padding: 20px 0;
-    
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
     
 }
 
@@ -189,6 +190,8 @@ header {
     margin: 13px 0 ;
 }
 
+/*fine sezione a tre colonne*/
+
 hr {
     margin: 0 auto;
     width: 50px;
@@ -201,18 +204,19 @@ hr {
    color:  hsl(0deg 0% 74%);
 }
 
+/*sezione a due colonne*/
+
 .col_left_secondrow {
     width: 50%;
     float: left;
 }
 
 .col_right_secondrow {
-    width: 40%;
+    width: 34%;
     float: left;
 }
 
 .col_img_secondrow {
-    height: 350px;
     width: 350px;
 }
 
@@ -227,10 +231,16 @@ hr {
     
 }
 
+/*fine sezione a due colonne*/
 
 /*FINE MAIN*/
 
 /*FOOTER*/
+
+.text_footer {
+    font-size: 20px;
+   padding-top: 10px;
+}
 .col_right_footer {
     float: right;
     color: hsl(0deg 0% 50%);
@@ -241,6 +251,7 @@ hr {
     bottom: 0;
     right: 175px;
     padding: 10px;
+    font-size: 9px;
 }
 
 select {
